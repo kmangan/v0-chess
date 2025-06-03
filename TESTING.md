@@ -14,19 +14,19 @@ npm run test:watch
 
 ## Test Coverage
 
-The project includes comprehensive unit tests for the `MoveHistory` component, covering:
+The project includes comprehensive unit tests for React components:
 
-- Empty state rendering
-- Basic pawn moves
-- Piece moves with correct algebraic notation
-- Capture moves (both pawn and piece captures)  
-- Promotion moves with all piece types
-- Check and checkmate notation
-- Multiple moves with correct numbering
-- All piece types (King, Queen, Rook, Bishop, Knight, Pawn)
-- Position formatting for all squares
-- Complex moves (promotion with capture and check)
-- CSS class application
+### GameStatus Component
+- Status message display for all game states (playing, check, checkmate, stalemate)
+- Correct player turn indication
+- Status message styling (red text for game-ending states)
+- Reset button functionality and interaction
+- Captured pieces display with Unicode chess symbols
+- All piece types rendering correctly
+- Empty state handling ("No pieces captured")
+- Multiple pieces of same type
+- Mixed captured pieces scenarios
+- Component structure and CSS classes
 
 ## Test Structure
 
